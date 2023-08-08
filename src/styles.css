@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
 .App {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  font-family: Montserrat, sans-serif;
+  background: linear-gradient(to bottom, #0074d9, #001f3f);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,12 +10,20 @@
 }
 
 .quiz-container {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 8px;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.8
+  ); /* Adjusted background color for better readability */
+  opacity: 0.8;
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   max-width: 500px;
 }
+
 
 .question-section {
   display: flex;
